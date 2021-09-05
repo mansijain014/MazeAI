@@ -306,8 +306,9 @@ class MazeTraining(pyglet.window.Window):
         for i in range(self.episodes-1):
             episodes_array.append(i+1)
         plt.plot(episodes_array, self.actions_performed)
+        plt.title('Actions per episode')
         plt.xlabel('Episodes')
-        plt.ylabel('Actions per Episode')
+        plt.ylabel('Actions')
         plt.show()
 
     def on_draw(self):
