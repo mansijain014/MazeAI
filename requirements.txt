@@ -1,0 +1,7 @@
+pyglet
+tkinter
+matplotlib
+numpy
+threading
+random
+time
